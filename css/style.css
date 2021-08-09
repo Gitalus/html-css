@@ -4,6 +4,7 @@
     /* border: 1px dotted red; */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -20,9 +21,12 @@ body {
     font-size: 1em;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
+    /* margin: 10px; */
 }
 .header .header-left {
     display: flex;
+    align-items: center;
 }
 .header .logo {
     font-size: 3em;
@@ -30,6 +34,7 @@ body {
 .header .text {
     display: inline-block;
     align-items: center;
+    padding: 3px;
 }
 .header .title{
     font-size: 0.7em;
@@ -55,6 +60,13 @@ body {
 }
 .card .details .details-left {
     display: flex;
+}
+.card .details .details-left ul {
+    list-style: none;
+    display: flex;
+}
+.card .details .details-left ul li {
+    margin-right: 4px;
 }
 .card .likes .bold{
     font-weight: 600;
