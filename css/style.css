@@ -48,7 +48,8 @@ body {
 }
 .card .image img {
     width: 100%;
-    aspect-ratio: 16/9;
+    height: 400px;
+    object-fit: cover;
 }
 .card .details {
     display: flex;
